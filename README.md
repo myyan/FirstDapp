@@ -11,25 +11,25 @@
 * web3@0.20.1
 * solc
 
-Install missing dependencies with [npm](https://www.npmjs.com/). 
+用npm安装缺少的依赖[npm](https://www.npmjs.com/).  nodejs 的安装就不做概述了
 
 ```
-> git clone git@github.com:llSourcell/Your_First_Decentralized_Application.git
-> cd Your_First_Decentralized_Application
-> npm install 
+> git clone https://github.com/myyan/FirstDapp.git
+> cd FirstDapp
+> npm install  安装依赖
 ```
 
-## Usage
+## 使用
 
-After all dependancies are installed, run the `testrpc` service with:
+在依赖安装完成后执行下面的命令 ethereum_test_rpc
 ```
 node_modules/ethereumjs-testrpc/build/cli.node.js
 ```
-
-Run the following commands to open the node console then deploy your contract to the test chain
+接着打开node的终端 执行下面命令在区块链上部署智能合约
 
 ```
-siraj:~/hello_world_voting$ node
+# heiqie /first_dapp on git:master o [20:05:18]
+$ node
 > Web3 = require('web3')
 > web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 > code = fs.readFileSync('Voting.sol').toString()
