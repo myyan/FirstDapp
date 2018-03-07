@@ -28,7 +28,7 @@ node_modules/ethereumjs-testrpc/build/cli.node.js
 接着打开node的终端 执行下面命令在区块链上部署智能合约
 
 ```
-# heiqie /first_dapp on git:master o [20:05:18]
+# heiqie /FirstDapp on git:master o [20:05:18]
 $ node
 > Web3 = require('web3')
 > web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
