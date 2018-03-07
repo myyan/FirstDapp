@@ -1,12 +1,11 @@
-# Your_First_Decentralized_Application
-This is the code for "A Guide to Building Your First Decentralized Application" by Siraj Raval on Youtube
+# 去中心化应用demo
 
 
-## Overview
+## 概述
 
-This is the code for [this](https://youtu.be/gSQXq2_j-mw) video on Youtube by Siraj Raval. It's a guide on how to build your first decentralized application. 
+本项目教你如何在区块链上面建一个区中心化应用
 
-## Dependencies
+## 依赖
 
 * ethereumjs-testrpc 
 * web3@0.20.1
